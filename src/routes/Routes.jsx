@@ -6,6 +6,7 @@ import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Product from '../pages/Product'
 import Condition from '../pages/Condition'
+import Contact from '../pages/Contact'
 
 const Routes = () => {
     return (
@@ -14,6 +15,7 @@ const Routes = () => {
             <Route path='/catalog/:slug' component={Product}/>
             <Route path='/catalog' component={Catalog}/>
             <Route path='/condition' component={Condition}/>
+            <Route path="/contact" component={Contact}/>
         </Switch>
     )
 }
