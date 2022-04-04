@@ -16,10 +16,11 @@ const ContactCard = props => {
                 </div>
                 <div className="policy-card__info__email">
                     {props.email}
+                </div>
                 <div className="policy-card__info__phone">
                     {props.phone}
                 </div>
-                </div>
+                
             </div>
         </div>
     )
