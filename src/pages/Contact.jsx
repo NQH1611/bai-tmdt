@@ -5,8 +5,9 @@ import Helmet from '../components/Helmet'
 import Section, { SectionTitle, SectionBody } from '../components/Section'
 import Grid from '../components/Grid'
 
-import policy from '../assets/fake-data/contact'
+
 import ContactCard from '../components/ContactCard'
+import contact from '../assets/fake-data/contact'
 
 function Contact() {
   return (
