@@ -23,7 +23,7 @@ function Contact() {
               <ContactCard
                 image={item.image}
                 title = {item.title}
-                description={item.decrip}
+                description={item.description}
                 email={item.email}
                 phone = {item.phone} />
             </Link>)}

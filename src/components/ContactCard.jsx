@@ -12,7 +12,7 @@ const ContactCard = props => {
                     {props.title}
                 </div>
                 <div className="policy-card__info__decrip">
-                    {props.decrip}
+                    {props.description}
                 </div>
                 <div className="policy-card__info__email">
                     {props.email}
@@ -27,7 +27,7 @@ const ContactCard = props => {
 
 ContactCard.propTypes = {
     title: PropTypes.string.isRequired,
-    decrip: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
     phone: PropTypes.string.isRequired
 }
