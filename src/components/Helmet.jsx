@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Helmet = props => {
 
-    document.title = 'Yolo - ' + props.title
+    document.title = 'BerNie - ' + props.title
 
     return (
         <div>
