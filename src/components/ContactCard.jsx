@@ -11,7 +11,7 @@ const ContactCard = props => {
                 <div className="policy-card__info__title">
                     {props.title}
                 </div>
-                <div className="policy-card__info__decrip">
+                <div className="policy-card__info__description">
                     {props.description}
                 </div>
                 <div className="policy-card__info__email">
@@ -26,6 +26,7 @@ const ContactCard = props => {
 }
 
 ContactCard.propTypes = {
+    image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,

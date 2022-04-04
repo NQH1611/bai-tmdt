@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Helmet from '../components/Helmet'
 import Section, { SectionTitle, SectionBody } from '../components/Section'
