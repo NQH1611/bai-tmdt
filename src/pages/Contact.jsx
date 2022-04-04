@@ -20,14 +20,15 @@ function Contact() {
             smCol={1}
             gap={1}
           >
-            {contact.map((item, index) => <Link key={index} to="/contact">
-              <ContactCard
-                image={item.image}
-                title = {item.title}
-                description={item.description}
-                email={item.email}
-                phone = {item.phone} />
-            </Link>)}
+            {
+                contact.map((item, index) =>(
+                    <ContactCard
+                        image={item.image}
+                        title = {item.title}
+                        description={item.description}
+                        email={item.email}
+                        phone = {item.phone} />))
+            }
           </Grid>
         </SectionBody>
       </Section>
