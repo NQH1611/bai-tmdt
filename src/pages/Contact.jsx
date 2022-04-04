@@ -8,7 +8,7 @@ import Grid from '../components/Grid'
 import policy from '../assets/fake-data/contact'
 import ContactCard from '../components/ContactCard'
 
-function Condition() {
+function Contact() {
   return (
     <Helmet title='liên hệ'>
       <Section>
@@ -34,4 +34,4 @@ function Condition() {
   )
 }
 
-export default Condition
+export default Contact
