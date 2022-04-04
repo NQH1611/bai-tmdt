@@ -108,25 +108,6 @@
                     position: relative;
                 }
             }
-            .shape {
-                $size: 472px;
-                height: $size;
-                width: $size;
-                position: absolute;
-                right: 0;
-                top: 50%;
-                border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
-                transform: translate(0, -50%);
-                transition: border-radius 13s ease;
-                animation: border 10s infinite;
-                @include tablet {
-                    $size: 250px;
-                    height: $size;
-                    width: $size;
-                    right: 50%;
-                    transform: translate(50%, -50%);
-                }
-            }
         }
         &.active &__image>img {
             transform: scale(1) rotate(0);
